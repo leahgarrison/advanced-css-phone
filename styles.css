@@ -1,0 +1,27 @@
+body {
+  color: pink;
+  display: flex;
+  border: solid 1px red;
+  height: 100vh;
+  align-items: center;
+}
+.phone-body {
+  height: 800px;
+  width: 400px;
+  border: solid 1px black;
+  margin: 0 auto;
+  border-radius: 20px;
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+}
+
+.phone-inner {
+  border: solid 1px black;
+  height: 80%;
+  width: 90%;
+  /* position: absolute; */
+  /* top: 20px; */
+  margin: 0 auto;
+  border-radius: 20px;
+}
